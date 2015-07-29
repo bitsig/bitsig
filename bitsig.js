@@ -272,5 +272,10 @@
             $('#donatepopup').show();
             window.scrollTo(0,document.body.scrollHeight);
         });
+        $('#close').click(function(event) {
+            $('#content').css('padding-bottom','64px');
+            $('#donatepopup').hide();
+            window.scrollTo(0,document.body.scrollHeight);
+        });
     });
 })(jQuery);
